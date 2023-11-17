@@ -8,7 +8,7 @@ import utils as ut
 #%%
 parser = argparse.ArgumentParser()
 parser.add_argument('--export_path', default=".", type=str)
-parser.add_argument("--ip", default="10.243.16.52")
+parser.add_argument("--ip", default="0.0.0.0")
 parser.add_argument("--port", default="24478")
 args = parser.parse_args()
 

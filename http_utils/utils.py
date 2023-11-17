@@ -14,9 +14,9 @@ import robodiff_startup as didv
 def get_server_url():
     # Server urls are usually assigned via cli. This provides some default ones if the cli options are left blank.
     server_urls = {
-        "gpunode002":'http://10.243.16.52',
-        "vacc-user1":"http://10.243.16.47",
-        "vacc-user2":"http://10.243.16.48"
+        "gpunode002":'http://0.0.0.0',
+        "vacc-user1":"http://0.0.0.0",
+        "vacc-user2":"http://0.0.0.0"
     }
     port = 24478
     return f"{server_urls['gpunode002']}:{port}"
@@ -245,7 +245,7 @@ class ServerManager(object):
             
         # return (not self.should_exit) and self._has_time_remaining()
 
-def handle_cluster_env(scene, ip="10.243.16.52", port=24478, ignore_exit_request=False, verbose=0):
+def handle_cluster_env(scene, ip="0.0.0.0", port=24478, ignore_exit_request=False, verbose=0):
     # default to gpunode002 ip
     torch_device = get_torch_device()
 
