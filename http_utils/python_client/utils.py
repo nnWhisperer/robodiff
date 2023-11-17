@@ -8,7 +8,7 @@ headers = {
     'Content-type':'application/json', 
     'Accept':'application/json'
 }
-url = "http://localhost:24479"
+url = "http://localhost:24478"
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -23,7 +23,7 @@ def set_url(args):
 
 # URL for DM laptop.
 # url = "http://192.168.3.165:24478"
-#url = 'http://localhost:24479' # Set destination URL here
+#url = 'http://localhost:24478' # Set destination URL here
 
 def infinite():
     while True:

@@ -25,7 +25,7 @@ headers = {
     'Accept':'application/json'
 }
 
-url = 'http://localhost:24479' # Set destination URL here
+url = 'http://localhost:24478' # Set destination URL here
 #%%
 session = requests.Session()
 #%%

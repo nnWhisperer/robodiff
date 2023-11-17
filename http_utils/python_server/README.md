@@ -8,10 +8,9 @@ pip install fastapi uvicorn
 
 - `uvicorn program:app --reload`
 
-This will launch a Python HTTP server listening on both of the following HTTP addresses:
+This will launch a Python HTTP server listening on the following HTTP address:
 
 - http://0.0.0.0:24478
-- http://localhost:24479
 
 # python_client files
 

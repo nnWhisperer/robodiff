@@ -7,9 +7,8 @@ You will need the ASP.NET Core Runtime 6.0.1. I typically install this with the 
 * `dotnet build`
 * `dotnet run`
 
-This will launch a ASP.NET Core 6 HTTP server listening on both of the following HTTP addresses:
+This will launch a ASP.NET Core 6 HTTP server listening on the following HTTP address:
 * http://0.0.0.0:24478
-* http://localhost:24479
 
 # python_client files
 ## HTTP server stats
